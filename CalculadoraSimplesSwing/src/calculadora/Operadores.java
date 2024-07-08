@@ -9,15 +9,36 @@ public class Operadores {
     }
     
     public double somar(double n1, double n2){
+        this.setValor1(n1);
+        this.setValor2(n2);
         double s = n1+n2;
+        this.setResult(s);
         return s;
     }
     
-    public void subtrair(){}
+    public double subtrair(double n1, double n2){
+        this.setValor1(n1);
+        this.setValor2(n2);
+        double s = n1-n2;
+        this.setResult(s);
+        return s;
+    }
     
-    public void multiplicar(){}
+    public double multiplicar(double n1, double n2){
+        this.setValor1(n1);
+        this.setValor2(n2);
+        double s = n1*n2;
+        this.setResult(s);
+        return s;
+    }
     
-    public void dividir(){}
+    public double dividir(double n1, double n2){
+        this.setValor1(n1);
+        this.setValor2(n2);
+        double s = n1/n2;
+        this.setResult(s);
+        return s;
+    }
 
     public double getValor1() {
         return valor1;
