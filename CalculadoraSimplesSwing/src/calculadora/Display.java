@@ -1,11 +1,9 @@
 package calculadora;
-
 import java.text.DecimalFormat;
 
 public class Display {
     String visor;
-    
-    
+      
     public void digitoDir(javax.swing.JLabel lab,double num){
         this.visor = Double.toString(num);
         if(lab.getText().length() < 7){
